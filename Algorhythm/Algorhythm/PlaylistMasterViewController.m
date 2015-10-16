@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  PlaylistMasterViewController.m
 //  Algorhythm
 //
 //  Created by Cookie Gu on 15/10/9.
 //  Copyright © 2015年 Cookie Gu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PlaylistMasterViewController.h"
 
-@interface ViewController ()
+@interface PlaylistMasterViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PlaylistMasterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

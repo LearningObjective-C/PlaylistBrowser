@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PlaylistMasterViewController.h
 //  Algorhythm
 //
 //  Created by Cookie Gu on 15/10/9.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PlaylistMasterViewController : UIViewController
 
 
 @end
