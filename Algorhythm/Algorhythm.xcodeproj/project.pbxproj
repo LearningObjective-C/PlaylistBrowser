@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		578EA2BB1BD13F0B00F6E572 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578EA2BA1BD13F0B00F6E572 /* PlaylistDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		578EA2BC1BD13F0B00F6E572 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578EA2BA1BD13F0B00F6E572 /* PlaylistDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		578EA2BD1BD13F0B00F6E572 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578EA2BA1BD13F0B00F6E572 /* PlaylistDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		57D378E31BC7D4ED003F68BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D378E21BC7D4ED003F68BF /* main.m */; };
 		57D378E61BC7D4ED003F68BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D378E51BC7D4ED003F68BF /* AppDelegate.m */; };
 		57D378E91BC7D4ED003F68BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D378E81BC7D4ED003F68BF /* ViewController.m */; };
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		578EA2B91BD13F0B00F6E572 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
+		578EA2BA1BD13F0B00F6E572 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
 		57D378DE1BC7D4ED003F68BF /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D378E21BC7D4ED003F68BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57D378E41BC7D4ED003F68BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +110,8 @@
 				57D378E51BC7D4ED003F68BF /* AppDelegate.m */,
 				57D378E71BC7D4ED003F68BF /* ViewController.h */,
 				57D378E81BC7D4ED003F68BF /* ViewController.m */,
+				578EA2B91BD13F0B00F6E572 /* PlaylistDetailViewController.h */,
+				578EA2BA1BD13F0B00F6E572 /* PlaylistDetailViewController.m */,
 				57D378EA1BC7D4ED003F68BF /* Main.storyboard */,
 				57D378ED1BC7D4ED003F68BF /* Assets.xcassets */,
 				57D378EF1BC7D4ED003F68BF /* LaunchScreen.storyboard */,
@@ -271,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D378E91BC7D4ED003F68BF /* ViewController.m in Sources */,
+				578EA2BB1BD13F0B00F6E572 /* PlaylistDetailViewController.m in Sources */,
 				57D378E61BC7D4ED003F68BF /* AppDelegate.m in Sources */,
 				57D378E31BC7D4ED003F68BF /* main.m in Sources */,
 			);
@@ -281,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D378FC1BC7D4EE003F68BF /* AlgorhythmTests.m in Sources */,
+				578EA2BC1BD13F0B00F6E572 /* PlaylistDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D379071BC7D4EE003F68BF /* AlgorhythmUITests.m in Sources */,
+				578EA2BD1BD13F0B00F6E572 /* PlaylistDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +506,7 @@
 				57D3790D1BC7D4EE003F68BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57D3790E1BC7D4EE003F68BF /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				57D379101BC7D4EE003F68BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57D379111BC7D4EE003F68BF /* Build configuration list for PBXNativeTarget "AlgorhythmUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				57D379131BC7D4EE003F68BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

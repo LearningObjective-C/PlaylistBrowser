@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="130.66666666666666" y="285.42000000000002"/>
         </scene>
-        <!--View Controller-->
+        <!--Playlist Detail View Controller-->
         <scene sceneID="Ddt-tx-5SX">
             <objects>
-                <viewController id="3Nf-L5-TZN" sceneMemberID="viewController">
+                <viewController id="3Nf-L5-TZN" customClass="PlaylistDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mCx-Ga-Hwe"/>
                         <viewControllerLayoutGuide type="bottom" id="FI1-zv-lA4"/>
@@ -44,6 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ybo-fe-aYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="495" y="285"/>
         </scene>
     </scenes>
 </document>
