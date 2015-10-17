@@ -10,6 +10,5 @@
 
 @interface PlaylistMasterViewController : UIViewController
 
-
 @end
 

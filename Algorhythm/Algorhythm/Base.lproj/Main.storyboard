@@ -22,7 +22,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3Nf-L5-TZN" kind="push" id="YGB-IC-iSy"/>
+                                    <segue destination="3Nf-L5-TZN" kind="push" identifier="showPlaylistDetail" id="YGB-IC-iSy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -45,9 +45,20 @@
                     <view key="view" contentMode="scaleToFill" id="5M5-xC-rYS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Haven't Pressed the Button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNr-pX-VT6">
+                                <rect key="frame" x="39" y="273" width="242" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.29803921570000003" green="0.68627450980000004" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="BY8-5t-cca"/>
+                    <connections>
+                        <outlet property="buttonPressLabel" destination="aNr-pX-VT6" id="57z-Nx-BoI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ybo-fe-aYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
