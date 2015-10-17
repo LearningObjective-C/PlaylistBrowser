@@ -16,17 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXp-CK-6PX">
-                                <rect key="frame" x="103" y="269" width="114" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="p4F-CD-Tcq">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="df2-GN-5PH"/>
+                                    <constraint firstAttribute="height" constant="200" id="r5R-pv-AXK"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXp-CK-6PX">
+                                <rect key="frame" x="128" y="392" width="64" height="30"/>
                                 <state key="normal" title="Press Me">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="3Nf-L5-TZN" kind="push" identifier="showPlaylistDetail" id="YGB-IC-iSy"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.62745098040000002" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="p4F-CD-Tcq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1mT-Yp-qPp"/>
+                            <constraint firstItem="nXp-CK-6PX" firstAttribute="top" secondItem="p4F-CD-Tcq" secondAttribute="bottom" constant="8" id="bni-8P-n1r"/>
+                            <constraint firstItem="nXp-CK-6PX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sD8-n5-GOR"/>
+                            <constraint firstItem="p4F-CD-Tcq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uiO-Wc-B4i"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="A82-57-7cA"/>
                 </viewController>
@@ -83,4 +97,7 @@
             <point key="canvasLocation" x="130" y="285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coffee" width="53" height="107"/>
+    </resources>
 </document>
