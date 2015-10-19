@@ -65,7 +65,6 @@ NSString *const kArtists = @"artists";
                        kArtists: @[@"Shakira", @"Santana", @"Wyclef Jean", @"Aloe Blacc", @"Pitbull", @"Enrique Iglesias", @"Ricky Martin"]
                        
                        }];
-
     }
     return self;
 }

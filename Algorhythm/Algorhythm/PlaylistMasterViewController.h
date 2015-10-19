@@ -10,5 +10,8 @@
 
 @interface PlaylistMasterViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *pressMeButton;
+@property (weak, nonatomic) IBOutlet UIImageView *playlistImageView0;
+
 @end
 
